@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locList">
+        <item>서울</item>
+        <item>수원</item>
+        <item>부산</item>
+        <item>천안</item>
+    </string-array>
+
+    <string-array name="mainFuncList">
+        <item>프로필변경</item>
+        <item>로그아웃</item>
+    </string-array>
+
+    <string-array name="naviMainMenu">
+        <item>지도</item>
+        <item>게시판</item>
+        <item>동호회</item>
+    </string-array>
+
+    <string-array name="naviMapMenu">
+        <item>메인</item>
+        <item>게시판</item>
+        <item>동호회</item>
+    </string-array>
+
+    <string-array name="naviBoardMenu">
+        <item>메인</item>
+        <item>지도</item>
+        <item>동호회</item>
+    </string-array>
+
+    <string-array name="naviClubMenu">
+        <item>지도</item>
+        <item>게시판</item>
+        <item>동호회</item>
+    </string-array>
+
+</resources>

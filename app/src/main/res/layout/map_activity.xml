@@ -1,0 +1,191 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/mainView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="?attr/colorPrimaryDark">
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/search_bar_layout"
+            android:weightSum="20"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/map_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="검색"
+                android:layout_weight="15"/>
+            <Button
+                android:id="@+id/map_enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:background="#00000000"
+                android:text="enter"
+                android:layout_weight="5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/route_bar_layout"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <LinearLayout
+                android:weightSum="20"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/source_edt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="출발지"
+                    android:layout_weight="15"/>
+                <Button
+                    android:id="@+id/source_enter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="enter"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="20"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/dest_edt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="도착지"
+                    android:layout_weight="15"/>
+                <Button
+                    android:id="@+id/dest_enter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:background="#00000000"
+                    android:text="enter"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/map_log_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="주행 시작"
+                android:textSize="15sp"
+                android:textColor="#ff7a00"
+                android:gravity="center"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/findroute_enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="탐색 시작"
+                android:textSize="15sp"
+                android:textColor="#ff7a00"
+                android:gravity="center"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/map_search_mygps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="내위치"
+                android:textSize="15sp"
+                android:textColor="#ff7a00"
+                android:gravity="center"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:visibility="visible"/>
+            <Button
+                android:id="@+id/map_route_mygps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="내위치"
+                android:textSize="15sp"
+                android:textColor="#ff7a00"
+                android:gravity="center"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/map_route"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="경로 탐색"
+                android:textSize="15sp"
+                android:textColor="#ff7a00"
+                android:gravity="center"
+                android:background="#00000000"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:id="@+id/drawer_menulist" />
+
+</android.support.v4.widget.DrawerLayout>

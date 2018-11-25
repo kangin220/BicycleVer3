@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Board.BoardDetailActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--삭제,추천버튼-->
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <Button
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/board_detail_deleteBtn"
+                    android:text="삭제"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginLeft="3dp"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/board_detail_likeBtn"
+                    android:text="추천"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--종류,제목,작성자,시간,추천-->
+            <LinearLayout
+                android:layout_weight="2"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:weightSum="6"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:textSize="16dp"
+                        android:id="@+id/board_detail_boardKind_titleTV"
+                        android:text="종류\n제목"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        />
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:textSize="14dp"
+                        android:id="@+id/board_detail_writer_date_likeTV"
+                        android:text="작성자\n시간"
+                        android:lines="2"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--body부분-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:background="@color/gray2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:text="바디"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/board_detail_bodyTV"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/gray2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></LinearLayout>
+
+            <!--댓글scrollView + 댓글입력-->
+            <LinearLayout
+                android:layout_weight="4"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:weightSum="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="작성자" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:gravity="center"
+                        android:text="내용" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="날짜" />
+                </LinearLayout>
+                <ScrollView
+                    android:layout_weight="8"
+                    android:fillViewport="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <ListView
+                        android:id="@+id/replyListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ListView>
+                </ScrollView>
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <Button
+
+                        android:background="@color/colorPrimary"
+                        android:id="@+id/replyWriteBtn"
+                        android:text="댓글입력"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

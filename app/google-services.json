@@ -1,0 +1,351 @@
+{
+  "project_info": {
+    "project_number": "847461057030",
+    "firebase_url": "https://bicycle-53422.firebaseio.com",
+    "project_id": "bicycle-53422",
+    "storage_bucket": "bicycle-53422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:b1e32cf0d7adeb66",
+        "android_client_info": {
+          "package_name": "bicycle.bicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:dc1faa7d2426029d",
+        "android_client_info": {
+          "package_name": "com.bicyle.bicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-cu8le1orbo029826b372d4pfcpnrurr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "e83ded3dc9c45ff07f252787fa587feed6c78408"
+          }
+        },
+        {
+          "client_id": "847461057030-9dgr8d24saumim8kn0ghc5p8drhpj8uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "8c36307da7a4efbf7ab2a786d4816e6a978694ef"
+          }
+        },
+        {
+          "client_id": "847461057030-rv2lnb8tjh4ridu23v0asvlemahucfak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "18dc00c4b0551eda681e4f2eab312d36c693a0d0"
+          }
+        },
+        {
+          "client_id": "847461057030-hp9n3pgpvk0q4c50h3srq8556nvad83l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "bd975a6a455608cf578a38e86a3bdda10d8dce7f"
+          }
+        },
+        {
+          "client_id": "847461057030-aiov5tb880otr2hkoofthisgv8186iis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "7416dfca8fa671cd961d191124b5189913e9d64e"
+          }
+        },
+        {
+          "client_id": "847461057030-e35ofp11gg71tsq9746ajhknes67th04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bicyle.bicycle",
+            "certificate_hash": "b10e52345306524f5c93906ac1f6b4c9ebcc8d75"
+          }
+        },
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:00b34f62357a8ebd",
+        "android_client_info": {
+          "package_name": "com.example.gusnr.bicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-bgil9ids67o431rjjdqmo82l5ovs48jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gusnr.bicycle",
+            "certificate_hash": "18dc00c4b0551eda681e4f2eab312d36c693a0d0"
+          }
+        },
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:fe4f84f624ec7166",
+        "android_client_info": {
+          "package_name": "com.example.jigat.bicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-sr69blgpisgn4bjrtaof5pdpqrm8vh19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jigat.bicycle",
+            "certificate_hash": "8c36307da7a4efbf7ab2a786d4816e6a978694ef"
+          }
+        },
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:509810d8e7ab8ec9",
+        "android_client_info": {
+          "package_name": "com.example.kkw20.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:a158a0900565ad5b",
+        "android_client_info": {
+          "package_name": "com.example.samsung.bcbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-q1m5ejtq4e2c5a45hf91gaaj6kmdgea7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samsung.bcbc",
+            "certificate_hash": "bd975a6a455608cf578a38e86a3bdda10d8dce7f"
+          }
+        },
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:3737fee32e6199ab",
+        "android_client_info": {
+          "package_name": "com.example.samsung.bicycle1234"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847461057030:android:017720b81a83e650",
+        "android_client_info": {
+          "package_name": "com.example.samsung.bicyclebicycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847461057030-ausosq9kjfk8b91abolml1ul2er7lcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI2y5nh9zPog_Y9t47FSo0EqIvO5mR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
